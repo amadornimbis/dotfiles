@@ -1,0 +1,5 @@
+#!/bin/bash
+# This hook is run after every virtualenv is activated.
+
+# color terminal
+export PS1="\[\033[01;44m\](`basename $VIRTUAL_ENV`)\[\033[00m\]\[\033[01;32m\] \h:\033[01;36m\]\W\[\033[00m\] \$ "
