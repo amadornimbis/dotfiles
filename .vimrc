@@ -1,13 +1,11 @@
 " Maintainer: Eric Amador
 " Last change:  2014 May 16
 
-syntax on
-
-" Vundle reccoments that all Vundle installs occur at
-" top of vimrc
+set nocompatible                " required by vundle
+filetype off                    " required by vundle
 
 " BEGIN VUNDLE
- 
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -34,7 +32,6 @@ filetype plugin indent on
 " END VUNDLE
 
 colorscheme Tomorrow-Night-Bright
-set nocompatible                " it's called vim for a reason
 set autoindent                  " be smart
 set smarttab                    " also smart
 set shiftwidth=4                " width of line-initial tab
