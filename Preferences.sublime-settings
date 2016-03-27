@@ -1,0 +1,22 @@
+{
+    "translate_tabs_to_spaces": true,
+    "font_size": 19,
+
+    // Disable automatching parenthesis
+    "auto_match_enabled": false,
+
+    // Use the TomorrowNightBright theme
+    "color_scheme": "Packages/User/TomorrowNightBright (SL).tmTheme",
+
+    // Don't use Vintage mode (vi keys)
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+
+    // Create a ruler at 80 characters
+    "rulers":
+    [
+        80
+    ]
+}
